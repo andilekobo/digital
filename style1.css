@@ -1,0 +1,55 @@
+body {
+  background-color: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  background-color: #1e293b;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+#clock {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.glow-text {
+  color: cyan;
+  text-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan;
+}
+
+.toolbox {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button, select {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button {
+  background-color: #f7f9fc;
+  color: rgb(14, 13, 13);
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+select {
+  background-color: #f1f5f9;
+}
